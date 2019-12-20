@@ -1,0 +1,686 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie|Raleway:400,700&display=swap');
+
+/* font-family: 'Cookie', cursive;
+font-family: 'Raleway', sans-serif; */
+
+body {
+    font-family: raleway;
+}
+
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2.5em 0;
+}
+.heading-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h1 {
+    font-size: 2rem;
+    color: rgb(211, 206, 211);
+}
+ul {
+    display: flex;
+    align-items: center;
+}
+ul li a {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 0.25em;
+    color: rgb(211, 206, 211);
+    text-transform: uppercase;
+}
+
+
+
+
+.main-hero {
+    background-image: url(../images/2457348.jpg);
+    position: relative;
+    height: 115vh;
+    background-size: cover;
+    background-position: top;
+    z-index: -1;
+}
+.hero {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text {
+    background: #e7e4e7e1;
+    height: 50%;
+    width: 50%;
+    margin-top: 6.5em ;
+    border-radius: 0.075em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero-text h2 {
+    font-family: cookie;
+    font-weight: 500;
+    font-size: 5.5rem;
+    text-transform: capitalize;
+    color: rgb(66, 64, 66);
+    margin: 0;
+}
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: -0.3em;
+    color: rgb(196, 151, 68);
+}
+.hero-text a {
+    color: rgb(39, 38, 38);
+    background-color: white;
+    font-size: 1.85rem;
+    font-weight: 600;
+    padding: 0.25em 0.65em;
+    border-radius: 0.025em;
+    margin-top: 0.25em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.flavours {
+    background-color: rgb(23, 44, 43);
+}
+.flavours-intro {
+    align-items: center;
+    padding: 4em 0;
+  
+}
+.flavours-img {
+    width: 45%;
+   
+}
+.flavours-img img {
+    height: 100%;
+    width: 100%;
+}
+
+.flavours-text {
+    padding: 1em;
+}
+.flavours-text h3 {
+    color: rgba(235, 232, 232, 0.973);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: 1em ;
+}
+
+.flavours-text p {
+    color: rgba(240, 239, 239, 0.863);
+    font-size: 0.95rem ;
+    width: 90%;
+    font-weight: 500;
+    line-height: 165%;
+    letter-spacing: 0.02em;
+}
+
+
+
+
+
+
+
+
+
+.new-area {
+    background-color: rgb(216, 213, 213);
+    padding: 5em 0;
+}
+
+.new-all {
+    width: 100%;
+}
+
+.new {
+    padding: 0 3em;
+}
+.round span{
+    height: 1.85em;
+    width: 1.85em;
+    border-radius: 50%;
+    background-color: rgb(49, 49, 49);
+    margin-right: 0.35em;
+}
+.round span:last-child {
+    margin: 0;
+}
+
+.new h3 {
+    font-size: 1.2rem;
+    color: rgb(49, 49, 49);
+    margin: 1.25em 0;
+}
+.new p {
+    color: rgb(49, 49, 49);
+    font-size: 0.85rem;
+    line-height: 155%;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+.food-items {
+    height: 175vh;
+    width: 100%;
+    background-image: url(../images/bb-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.food-items .main-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.food-items .food-gallery {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 228, 228, 0.836);
+}
+.food-items .food-gallery .intro {
+    padding-top: 2em;
+    text-align: center;
+    height: 35vh;
+}
+.food-items .food-gallery .intro h1 {
+    font-family: cookie;
+    font-size: 3.5rem;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    padding-bottom: 0.15em;
+}
+.food-items .food-gallery .intro span {
+    text-transform: uppercase;
+    font-size: 2.75rem;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    color: rgb(192, 133, 24);
+}
+
+
+
+.food-items .food-gallery .item-img {
+    width: 25%;
+    height: 35vh;
+}
+.food-items .food-gallery .item-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.food-items .food-gallery .item-details {
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 35vh;
+}
+.food-items .food-gallery .item-details .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.food-items .food-gallery .item-details h4 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: rgb(49, 49, 49);
+}
+.food-items .food-gallery .item-details p {
+    width: 70%;
+    margin: 0.45em auto;
+    text-align: center;
+    font-size: 0.9rem;
+    line-height: 140%;
+    color: rgb(29, 28, 28);
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+.side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-right img{
+    transform: rotate(180deg);
+}
+
+.make-content {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.make-content h1 {
+    font-size: 1.75rem;
+    color: rgb(70, 71, 71);
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+.make-content p {
+    font-size: 0.95rem;
+    padding-bottom: 0.75em;
+    width: 95%;
+    line-height: 150%;
+    margin: 0 auto;
+    font-weight: 500;
+    color: rgb(78, 78, 78);
+}
+
+.make-content .round {
+    padding: 1.75em 0;
+}
+
+.content-link  {
+    padding-top: 1em;
+}
+.content-link a {
+    font-size: 1.25rem;
+    margin-right: 1.25em;
+    color: rgb(90, 90, 90);
+    font-weight: 600;
+}
+.content-link a:nth-last-child(){
+    margin: 0;
+}
+
+
+
+
+
+
+.menu {
+    height: 130vh;
+    background-image: url(../images/bb-bg.jpg);
+    background-size: cover;
+    position: relative;
+}
+.menu-gallery {
+    height: 105vh;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(197, 193, 193, 0.829);
+    width: 100%;
+}
+.menu-title {
+    padding: 3.75em 0 4em 0;
+    text-align: center;
+}
+.menu-title h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 3.5rem;
+    font-weight: 500;
+    color: rgb(32, 32, 32);
+}
+
+.menu-title h2 {
+    color: rgb(192, 133, 24);
+    font-size: 2.25rem;
+}
+
+
+
+.menu-items {
+    padding: 0 7.25em;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1350px;
+}
+.menu-item:nth-child(even){
+    padding: 0em 0 3em 4em;
+}
+.menu-item:nth-child(odd) {
+    align-items: center;
+    padding: 0em 4em 3em 0;
+}
+
+.menu-item .item-img {
+    margin-right: 0.6em;
+    width: 75px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+.menu-item .item-content h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25em;
+    color: rgb(32, 32, 32);
+}
+.menu-item .item-content p {
+    font-size: 0.95rem;
+    width: 100%;
+    font-weight: 500;
+    line-height: 150%;
+    color: rgb(56, 55, 55);
+}
+.menu-item .item-content span {
+    font-size: 1.15rem;
+    font-weight: 600;
+
+}
+
+
+
+
+
+
+
+.onlyimg {
+    height: 95vh;
+    background-image: url(../images/2457348.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+.booking-area {
+    width: 100%;
+    padding: 3.5em;
+    background-color: rgb(23, 44, 43);   
+}
+.booking-title h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 0.25em 0;
+}
+.booking-system {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+.booking-system select ,
+input
+{
+    background-color: transparent;
+    width: 220px;
+    height: 30px;
+    margin: 0.45em 0;
+    outline: none;
+    border: none;
+    border-radius: 0.75em;
+    border: 2px solid #fff;
+    color: rgb(245, 244, 243);
+
+}
+.booking-system option{
+    background-color: rgb(23, 44, 43);
+    border-radius: 1em;
+    outline: none;
+    border: none;
+}
+label {
+    font-weight: 600;
+    color: white;
+    font-size: 0.95rem;
+    padding-left: 0.25em;
+}
+input {
+    padding-left: 0.45em;
+}
+
+input::placeholder {
+    font-weight: 600;
+    color: white;
+}
+
+.submit {
+    text-align: center;
+    margin-top: 2em;
+    cursor: pointer;
+}
+.submit input {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-menu {
+    background-color: rgb(196, 191, 191);
+    padding: 3.5em 0;
+}
+.new-menu .new_menu-title h2 {
+    color: rgb(192, 133, 24);
+    font-size: 2.75rem;
+    font-weight: 600;
+    text-align: center;
+    padding: .5em 0 1em 0;
+}
+
+.menu-listes {
+    justify-content: space-around;
+    padding: 1em 0;
+    align-items: center;
+}
+
+
+.menulist {
+     width: 28%;
+     border-radius: 0.15em;
+     background-color: #fff;
+     box-shadow: 0 0 35px rgb(221, 216, 216);
+}
+.menulist .item-img {
+    width: 100%;
+    height: 45vh;
+}
+.menulist .item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.menulist .item-name h4{
+    font-size: 1.15rem;
+    padding: 0.85em 0 0.5em 0;
+    color: rgb(56, 58, 58);
+}
+.menulist .text {
+    padding-left: 1.25em;
+}
+.menulist .item-intro p {
+    font-size: 0.85rem;
+    line-height: 145%;
+    color: rgb(71, 69, 69);
+}
+.menulist .btn {
+    position: relative;
+    padding: 0.85em 0 1.2em 0;
+    font-size: 1.2rem;
+    color: rgb(10, 33, 163);
+}
+.menulist .btn::after {
+    position: absolute;
+    content: "";
+    display: table;
+    left: 0;
+    bottom: 0;
+    height: 5px;
+    width: 30%;
+    border-radius: 0.5em;
+    background-color: rgb(192, 133, 24);
+    margin-bottom: 0.75em;
+    margin-top: 0.25em;
+}
+/* font-family: 'Cookie', cursive; */
+
+
+
+
+.testmonial {
+    background-color: rgb(23, 44, 43); 
+    padding: 2.5em 0;
+}
+.testmonial .blockquote i {
+    font-size: 1.75rem;
+    color: white;
+}
+
+.testmonial .blockquote {
+    justify-content: center;
+    align-items: center;
+}
+.testmonial .blockquote p {
+    width: 50%;
+    line-height: 160%;
+    text-align: center;
+    font-size: 1rem;
+    color: rgb(206, 202, 202);
+    padding: 1.25em 0;
+}
+.testmonial .blockquote span {
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: white;
+}
+
+
+
+.testmonial .social-share {
+    text-align: center;
+    padding-top: 1.75em;
+}
+.testmonial .social-share i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #fff;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    margin-right: 0.2em;
+    cursor: pointer;
+    color: rgb(37, 37, 37);
+}
+
+.testmonial .social-share i:nth-last-child(){
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(196, 191, 191);
+    padding: 2.5em 0;
+}
+footer .footer-area {
+    align-items: center;
+}
+footer .footer-left {
+    justify-content: space-between;
+}
+footer .footer-left h4 {
+    padding-bottom: 2.5em;
+    font-size: 1.5rem;
+
+}
+footer .footer-left p {
+    width: 60%;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+footer .footer-right {
+    justify-content: space-around;
+}
+footer .footer-right h5 {
+    font-size: 1.25rem;
+    padding-bottom: 1.75em;
+}
+footer .footer-right .link a{
+    padding-top: 0.55em ;
+    color: rgb(61, 54, 54);
+    font-size: 0.959rem;
+    text-decoration: underline;
+}
+footer .footer-right .link a:nth-last-child(){
+    padding: 0;
+}
